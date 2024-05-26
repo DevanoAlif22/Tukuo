@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(245, 245, 245);
+    
+    
+}
+.nav {
+    padding: 10px 150px;
+    
+}
+.nav2 {
+    padding: 10px 170px;
+    background-color: rgb(237, 247, 255);
+}
+.nav3 {
+    padding: 25px 65px;
+}
+.nav4 {
+    padding: 25px 45px;
+}
+/* logo image */
+.logo{
+    width: 170px;
+    height: 50px;
+}
+.pencari {
+    width: 400px;
+}
+.cari {
+    background-color:#3bbbf1; 
+     width:100px;
+     color: white;
+}
+.cari:hover {
+    background-color:#00adf7; 
+    width:100px;
+}
+.keranjang {
+    cursor: pointer; 
+    margin-left: 10px; 
+    border-radius:50px; 
+    background-color:#3bbbf1; 
+    padding: 5px 10px;
+}
+.keranjang:hover {
+    background-color:#00adf7;  
+}
+.logokeranjang{
+    color: white;
+}
+
+.pagination:hover {
+    background-color: rgb(237, 235, 235);
+}
+/* iklan */
+.iklan img {
+    border-radius: 10px;
+    filter: brightness(80%);
+    transition: transform .2s;
+    width: 85%;
+}
+.iklan img:hover {
+    filter: brightness(100%);
+    transform: scale(1.02);
+}
+.zoom {
+    position: relative;
+    width: 100%;
+    height: 160px;
+    margin: 0 auto;
+    overflow: hidden;  
+    border-radius: 10px 10px 0px 0px;
+}
+ .zoom:hover .gambar img {
+-webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 110%;
+}
+
+.link:hover {
+    border-bottom: solid 2px black;
+}
+
+/* foto */
+.gambar img {
+-webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 100%;
+}
+.gambar {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.deskripsi {
+    padding: 10px;
+}
+.kartu {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* untuk hp */
+@media screen and (max-width: 1000px) {
+}
+@media screen and (max-width: 800px) {
+    .nav {
+        padding: 10px 50px;
+        
+    }
+    .nav2 {
+        padding: 10px 50px;
+        
+    }
+    .iklan img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    form {
+        margin-top: 20px;
+    }
+    .pencari {
+        width: 200px;
+    }
+    .cari {
+        width: 80px;
+    }
+    .keranjang {
+        padding: 5px;
+    }
+    
+    .riwayath5 {
+        font-size: 15px;
+    }
+    .riwayath6 {
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width: 460px) {
+    .pencari {
+        width: 75%;
+    }
+}
